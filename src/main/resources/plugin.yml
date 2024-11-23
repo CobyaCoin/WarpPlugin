@@ -1,0 +1,9 @@
+name: WarpPlugin
+version: 1.1
+main: cobyacoin.com.warpplugin.WarpPlugin.warpplugin.WarpPlugin
+api-version: 1.16
+description: A simple warp plugin.
+commands:
+  warp:
+    description: Manage warps.
+    usage: /warp <create|list|goto>
