@@ -72,14 +72,14 @@ player.sendMessage(ChatColor.GREEN + "Точка '" + ChatColor.AQUA + warpName 
 e. Подсказки
 
 Метод sendHelp() выводит список всех доступных команд и их описание:
-
+```
 private void sendHelp(Player player) {
     player.sendMessage(ChatColor.GOLD + "=== WarpPlugin Команды ===");
     player.sendMessage(ChatColor.AQUA + "/warp create <название>" + ChatColor.WHITE + " - Создать точку.");
     player.sendMessage(ChatColor.AQUA + "/warp list" + ChatColor.WHITE + " - Показать список точек.");
     player.sendMessage(ChatColor.AQUA + "/warp goto <название>" + ChatColor.WHITE + " - Телепортироваться к точке.");
 }
-
+```
 3. Файл plugin.yml
 
 Этот файл сообщает Minecraft, как использовать плагин:
